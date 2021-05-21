@@ -5,6 +5,7 @@ import Title from './components/Title'
 import Search from './components/Search'
 import CoinList from './components/CoinList'
 import CoinConfig from './components/CoinConfig'
+import Loader from './components/Loader'
 
 function App() {
   const [search, setSearch] = useState('')
@@ -43,7 +44,7 @@ function App() {
       </div>
 
       {error && <div className="error">{ error }</div>}
-      {isLoading && <div className="loading">Loading...</div>}
+      {isLoading && <Loader />}
       {filteredCoins && <CoinList coins={filteredCoins} coinConfig={apiConfig} />}
     </div>
   )
