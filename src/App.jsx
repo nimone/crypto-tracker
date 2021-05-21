@@ -30,7 +30,8 @@ function App() {
 
   if (coins && !error) {
     filteredCoins = coins.filter(coin => 
-      coin.name.toLowerCase().includes(search.toLowerCase())
+      coin.name.toLowerCase().includes(search.toLowerCase()) ||
+      coin.symbol.toLowerCase().includes(search.toLowerCase())
     )
   }
 
