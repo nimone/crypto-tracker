@@ -1,5 +1,5 @@
-# Crypto Tracker ₿
-This app tracks the price & market changes for top 100 crypto currencies.
+# [Crypto Tracker ₿](https://crypto-tracker.pages.dev/)
+This app tracks the price & market changes for top 100 cryptocurrencies.
 
 ![Crypto-tracker screenshot](https://i.ibb.co/25FLzhy/crypto-tracker-ss.png)
 
